@@ -1,0 +1,155 @@
+/* General Styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+}
+
+.quiz, .settings, .final {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 100%;
+    max-width: 500px;
+}
+
+.quiz {
+    display: block;
+}
+
+.final {
+    text-align: center;
+    display: none;
+}
+
+.final h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.final .score {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 10px 0;
+    color: #4caf50;
+}
+
+.final h4 {
+    font-size: 16px;
+    color: #777;
+}
+
+#again {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#again:hover {
+    background-color: #45a049;
+}
+
+/* Quiz Styling */
+.count {
+    font-size: 18px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.count p {
+    display: inline;
+    margin: 0 5px;
+}
+
+#question {
+    font-size: 22px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.container {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container:hover {
+    background-color: #f1f1f1;
+}
+
+button {
+    padding: 12px 20px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    display: block;
+    width: 100%;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Settings Styling */
+.settings h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.settings label {
+    font-size: 16px;
+    display: block;
+    margin: 10px 0;
+}
+
+select, input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+input[type="radio"] {
+    margin-right: 10px;
+}
+
+.submit {
+    background-color: #4caf50;
+    padding: 12px 20px;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+}
+
+.submit:hover {
+    background-color: #45a049;
+}
